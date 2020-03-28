@@ -9,11 +9,24 @@
 .top h1{
 	text-align: center;
 	font-family: 'Abril';
-	color: lightblue;
+	color: white;
 }
 #head{
 	width: 100%;
 	height: auto;
+}
+.first{
+	width: 100%;
+	height: auto;
+}
+.bt{
+	border:none;
+	background: transparent;
+}
+.m1 h1{
+	font-family: 'Abril';
+	text-align: center;
+	color: white;
 }
 .m1{
 	background-image: url(image/banner4.jpg);
@@ -39,5 +52,11 @@
 	background-size: cover;
 	background-position: bottom;
 	text-align: center;
+	color: lightblue;
+}
+#myBtn{
+	background: transparent;
+	border: none;
+	margin-left: 600px;
 	color: lightblue;
 }

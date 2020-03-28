@@ -14,9 +14,26 @@
 		<h1>THE MYSTERIOUS SPECIES OF UNDERWATER</h1>
 		<div class="container">
 			<img src="image/bannerh.jpg" id="head">
+			<div class="row">
+				<div class="col-lg-4 col-md-3 col-sm-2"></div>
+				<div class="col-lg-4 col-md-6 col-sm-8">
+					<div class="btn-lg-group first">
+						<a href="index.html"><button type="button" class="btn btn-light active bt">Home</button></a>
+						<a href=""><button type="button" class="btn btn-light bt">About Us</button></a>
+						<a href=""><button type="button" class="btn btn-light bt">Contact Us</button></a>
+						<a href=""><button type="button" class="btn btn-light bt">Blog</button></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-3 col-sm-2"></div>
+			</div>
 		</div>
 	</div>
 	<div class="container-fluid">
+		<div class="row m1">
+			<div class="col-12">
+				<h1>HOME</h1>	
+			</div>
+		</div>
 		<div class="row m1">
 			<div class="col-lg-6 col-md-12 col-sm-12 order-lg-1 order-md-2 order-sm-2">
 				<h3>Frilled shark</h3>
@@ -99,6 +116,22 @@
 		</div>
 		<div class="row">
 			<div class="col-12 foot">
+				<br><button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+				<script>
+					var mybutton = document.getElementById("myBtn");
+					window.onscroll = function() {scrollFunction()};
+					function scrollFunction() {
+						if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+							mybutton.style.display = "block";
+						} else {
+							mybutton.style.display = "none";
+						}
+					}
+					function topFunction() {
+						document.body.scrollTop = 0;
+						document.documentElement.scrollTop = 0;
+					}
+				</script><br>
 				<p>Copyright © 1996-2015 National Geographic Society|Copyright © 2015-2020 National Geographic Partners, LLC. All rights reserved</p>
 			</div>
 		</div>
