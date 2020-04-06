@@ -53,10 +53,38 @@
 	background-position: bottom;
 	text-align: center;
 	color: lightblue;
+	padding: 0px 100px;
+}
+.ft{
+	margin-top: 50px;
 }
 #myBtn{
 	background: transparent;
 	border: none;
-	margin-left: 600px;
+	margin-left: 60px;
 	color: lightblue;
+}
+#more1{
+	display: none;
+}
+#more2{
+	display: none;
+}
+#more3{
+	display: none;
+}
+#more4{
+	display: none;
+}
+#more5{
+	display: none;
+}
+#more6{
+	display: none;
+}
+#more7{
+	display: none;
+}
+#more8{
+	display: none;
 }
