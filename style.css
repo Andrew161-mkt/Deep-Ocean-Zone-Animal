@@ -18,6 +18,12 @@
 .first{
 	width: 100%;
 	height: auto;
+	margin-left: 50px;
+}
+.first img{
+	margin-top: 10px;
+	width: 100px;
+	height: 75px;
 }
 .bt{
 	border:none;
@@ -35,9 +41,21 @@
 	padding: 10px 100px;
 }
 .m1 img{
-	width: 490px;
+	float: right;
+	width: 400px;
 	height: 300px;
 	margin-bottom: 10px;
+}
+.m2{
+	background-image: url(image/banner4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 10px 100px;
+}
+.m2 a>img{
+	width: 207px;
+	height: 100px;
+	margin: 30px 30px;
 }
 .m1 h3{
 	font-family: 'Abril';
@@ -87,4 +105,28 @@
 }
 #more8{
 	display: none;
+}
+.banner img{
+	width: 100%;
+	height: 50vh;
+}
+.c1{
+	border-color: white;
+	background:transparent;
+}
+.c2{
+	border-color: white;
+	background:transparent;
+	color: white;
+}
+::placeholder{
+	color: white;
+}
+.g1{
+	color: white;
+}
+.h{
+	font-family: 'Abril';
+	color: white;
+	text-align: center;
 }

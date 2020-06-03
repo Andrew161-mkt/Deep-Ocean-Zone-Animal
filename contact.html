@@ -16,16 +16,17 @@
 		<div class="container">
 			<img src="image/bannerh.jpg" id="head">
 			<div class="row">
-				<div class="col-lg-4 col-md-3 col-sm-2"></div>
-				<div class="col-lg-4 col-md-6 col-sm-8">
+				<div class="col-lg-3 col-md-2 col-sm-1"></div>
+				<div class="col-lg-6 col-md-8 col-sm-10">
 					<div class="btn-lg-group first">
+						<img src="image/logo.jpg">
 						<a href="home.html"><button type="button" class="btn btn-info bt">Home</button></a>
 						<a href="index.html"><button type="button" class="btn btn-info bt">Blog</button></a>
 						<a href="about.html"><button type="button" class="btn btn-info bt">About Us</button></a>
 						<a href="contact.html"><button type="button" class="btn btn-info active bt">Contact Us</button></a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-3 col-sm-2"></div>
+				<div class="col-lg-3 col-md-2 col-sm-1"></div>
 				<div class="col-12">
 					<h1>Contact Us</h1>	
 				</div>
@@ -34,29 +35,57 @@
 	</div>
 	<div class="container-fluid">
 		<div class="row m1">
-			
+			<div class="col-lg-6 col-md-6 col-sm-12">
+				<h3>Exclusive Deals and Offers!</h3><br>
+				<p>Subscribe to our newsletter to receive special offers!</p><br>
+				<form action="signup.html" method="post">
+					<input class="c1" type="text" name="name" placeholder="Your name" required="required"><br><br><br>
+					<input class="c1" type="number" name="phone" placeholder="Your Phone number"><br><br><br>
+					<input class="c1" type="email" name="email" placeholder="Your email address" size="30px" required="required"><br><br><br>
+					<input type="radio" name="gender" id="male">
+					<label for="male" class="g1">Male</label>
+					<input type="radio" name="gender" id="female">
+					<label for="female" class="g1">Female</label><br><br>
+					<button class="btn btn-outline-info" type="submit">Sign Up</button>
+				</form>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12">
+				<h3>Talk to Us!</h3><br>
+					<input class="c1" type="text" name="name" placeholder="Name" size="30px"><br><br>
+					<input class="c1" type="email" name="email" placeholder="Email" size="30px"><br><br>
+					<input class="c2" type="text" name="subject" placeholder="Subject" size="30px"><br><br>
+					<textarea class="c2" maxlength="1000" rows="10" cols="50" placeholder="Message"></textarea>
+					<form id="submit">
+						<button class="btn btn-outline-info" type="submit">Submit</button>
+				    </form>
+			</div>
+			<script>
+				$("#submit").click(function(){
+					alert("Thanks for Messaging");
+					localstorage.clear();
+				})
+			</script>
 		</div>
+	</div>
+	<div class="container-fluid">
 		<div class="row foot">
 			<div class="col-lg-5 col-md-5 col-sm-5"></div>
 			<div class="col-lg-2 col-md-2 col-sm-2">
 				<br><button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
-				<script>
-					var mybutton = document.getElementById("myBtn");
-					window.onscroll = function() {scrollFunction()};
-					function scrollFunction() {
-						if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-							mybutton.style.display = "block";
-						} else {
-							mybutton.style.display = "none";
-						}
-					}
-					function topFunction() {
-						document.body.scrollTop = 0;
-						document.documentElement.scrollTop = 0;
-					}
-				</script>
 			</div>
 			<div class="col-lg-5 col-md-5 col-sm-5"></div>
+			<div class="col-lg-3 col-md-6 col-sm-6 ft">
+				<p>About Us</p><br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 ft">
+				<p>Popular Links</p><br><p>Deepsea animals</p><p>Wikipedia</p><p>National Geographic</p>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 ft">
+				<p>Quick Links</p><br><p>About Us</p><p>Animals</p><p>Blog</p><p>Terms&Conditions</p><p>FAQ</p>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 ft">
+				<p>Have a Question?</p><br><i class="fas fa-map-marked-alt"><a class="l1">&nbsp&nbsp&nbsp No.4 Pawtawmu street, Mayangone Tsp, Yangon, Myanmar.</a></i><br><br><i class="fas fa-phone"><a class="l1">&nbsp&nbsp&nbsp +959 788 405 997</a></i><br><br><i class="fas fa-envelope"><a class="l1">&nbsp&nbsp&nbsp info@minkhantthu.com</a></i>
+			</div>
 			<div class="col-12">
 				<br><p>Copyright © 1996-2015 National Geographic Society|Copyright © 2015-2020 National Geographic Partners, LLC. All rights reserved</p><br>
 			</div>
