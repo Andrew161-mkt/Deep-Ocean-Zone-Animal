@@ -64,6 +64,34 @@
 .m1 p{
 	color: white;
 }
+.m3{
+	background-image: url(image/banner4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 10px 100px;
+}
+.m3 h1{
+	text-align: center;
+	color: white;
+}
+.m3 h2{
+	text-align: center;
+	color: white;
+}
+.m3 h3{
+	text-align: center;
+	color: white;
+}
+.m3 img{
+	 display: block;
+ 	 margin-left: auto;
+ 	 margin-right: auto;
+}
+#frame{
+	 display: block;
+	 margin-left: auto;
+ 	 margin-right: auto;
+}
 .foot{
 	background-image: url(image/banner3.jpg);
 	background-repeat: no-repeat;
